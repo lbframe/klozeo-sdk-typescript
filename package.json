@@ -1,0 +1,52 @@
+{
+  "name": "@klozeo/sdk",
+  "version": "0.1.0",
+  "description": "Official TypeScript SDK for the Klozeo API",
+  "license": "MIT",
+  "author": "Klozeo <hello@klozeo.com>",
+  "homepage": "https://github.com/klozeo/sdk-typescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/klozeo/sdk-typescript"
+  },
+  "keywords": [
+    "klozeo",
+    "sdk",
+    "leads",
+    "crm",
+    "api"
+  ],
+  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/types/index.d.ts"
+    },
+    "./filters": {
+      "import": "./dist/esm/filters/index.js",
+      "require": "./dist/cjs/filters/index.js",
+      "types": "./dist/types/filters/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.cjs.json && node scripts/postbuild.mjs",
+    "build:esm": "tsc -p tsconfig.json",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "lint": "tsc --noEmit -p tsconfig.json",
+    "clean": "rm -rf dist"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
