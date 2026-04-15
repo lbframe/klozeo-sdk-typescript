@@ -60,7 +60,7 @@ const blob = await client.leads.export(ExportFormat.CSV, {
 
 ```typescript
 const client = new Klozeo("sk_live_your_api_key", {
-  baseUrl: "https://custom.api.com",  // default: https://app.klozeo.com/api/v1
+  baseUrl: "https://custom.api.com",  // default: https://api.klozeo.com/api/v1
   timeout: 30_000,                    // ms, default 30000
   maxRetries: 3,                      // retries on 429/5xx, default 3
   fetch: customFetch,                 // optional custom fetch
@@ -138,4 +138,4 @@ const state = client.rateLimitState();
 ## Links
 
 - API docs: https://docs.klozeo.com
-- Dashboard: https://app.klozeo.com
+- Dashboard: https://klozeo.com

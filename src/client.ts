@@ -6,7 +6,7 @@ import { NotesResource } from "./resources/notes";
 import { ScoringResource } from "./resources/scoring";
 import { WebhooksResource } from "./resources/webhooks";
 
-const DEFAULT_BASE_URL = "https://app.klozeo.com/api/v1";
+const DEFAULT_BASE_URL = "https://api.klozeo.com/api/v1";
 const DEFAULT_TIMEOUT = 30_000;
 const DEFAULT_MAX_RETRIES = 3;
 

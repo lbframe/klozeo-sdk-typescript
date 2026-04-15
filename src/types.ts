@@ -439,7 +439,7 @@ export interface WebhookListResult {
  * Options for the Klozeo client.
  */
 export interface KlozeoOptions {
-  /** Override the API base URL (default: "https://app.klozeo.com/api/v1") */
+  /** Override the API base URL (default: "https://api.klozeo.com/api/v1") */
   baseUrl?: string;
   /** Per-request timeout in milliseconds (default: 30000) */
   timeout?: number;

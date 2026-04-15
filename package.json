@@ -1,13 +1,13 @@
 {
   "name": "@klozeo/sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Official TypeScript SDK for the Klozeo API",
   "license": "MIT",
   "author": "Klozeo <hello@klozeo.com>",
-  "homepage": "https://github.com/klozeo/sdk-typescript",
+  "homepage": "https://github.com/lbframe/klozeo-sdk-typescript",
   "repository": {
     "type": "git",
-    "url": "https://github.com/klozeo/sdk-typescript"
+    "url": "https://github.com/lbframe/klozeo-sdk-typescript"
   },
   "keywords": [
     "klozeo",
