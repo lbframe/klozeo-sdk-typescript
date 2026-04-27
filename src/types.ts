@@ -125,6 +125,8 @@ export interface Lead {
   sourceId?: string;
   /** Logo URL */
   logoUrl?: string;
+  /** Pipeline status */
+  status?: string;
   /** Dynamic attributes */
   attributes?: Attribute[];
 }
@@ -171,6 +173,8 @@ export interface CreateLeadInput {
   sourceId?: string;
   /** Logo URL */
   logoUrl?: string;
+  /** Pipeline status */
+  status?: string;
   /** Dynamic attributes */
   attributes?: Attribute[];
 }

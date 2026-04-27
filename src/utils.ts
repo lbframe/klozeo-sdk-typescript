@@ -129,6 +129,7 @@ export function deserializeLead(raw: Record<string, any>): import("./types.js").
     tags: raw.tags,
     sourceId: raw.source_id,
     logoUrl: raw.logo_url,
+    status: raw.status,
     attributes: raw.attributes,
   };
 }
