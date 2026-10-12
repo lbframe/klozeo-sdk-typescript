@@ -139,3 +139,7 @@ const state = client.rateLimitState();
 
 - API docs: https://docs.klozeo.com
 - Dashboard: https://klozeo.com
+
+## License
+
+MIT. See [LICENSE](LICENSE).
